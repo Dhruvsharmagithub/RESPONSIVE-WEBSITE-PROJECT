@@ -1,0 +1,73 @@
+/* This code is written by Dhruv sharma */
+/* navigation */
+
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 10px;
+    padding-bottom: 8px;
+}
+/* home section */
+
+#home{ height: 336px;
+    padding: 3px 68px;
+
+}
+#home::before{ 
+    height: 480px;
+    /* width: 532px; */
+
+}
+#home p{
+    font-size: 13px;
+}
+/* This code is written by Dhruv sharma */
+/* services section  */
+
+#services{
+
+    flex-direction: column;
+}
+#services .box{
+    padding: 14px;
+    margin: 2px 40px;
+}
+#services .box img {
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+ /* client section */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 134px;
+    padding: 6px;
+    height: auto;
+}
+
+/* contact us section */
+
+#contact-box form{
+    width: 60%;
+}
+/* This code is written by Dhruv sharma */
+/* footer */
+
+/* utitlity classes */
+.h-primary{
+    font-size: 22px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+/* This code is written by Dhruv sharma */
